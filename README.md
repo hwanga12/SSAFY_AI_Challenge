@@ -24,8 +24,8 @@
       - 라이브러리 : HuggingFace (Transformers, Datasets), PEFT (LoRA)
     </td>
     <td>
-      - 모델 : **Qwen2.5-VL-7B-Instruct**<br>
-      - GPU 환경 : **SSAFY SSH GPU A100 (VRAM 40GB+)**<br>
+      - 모델 : <b>Qwen2.5-VL-7B-Instruct</b><br>
+      - GPU 환경 : <b>SSAFY SSH GPU A100 (VRAM 40GB+)</b><br>
       - 개발 도구 : Google Colab (초기), Jupyter Notebook
     </td>
   </tr>
@@ -48,7 +48,7 @@ VQA 모델은 이미지 속 상황과 객체를 '이해'하고 논리적으로 '
 # 3. 모델 및 데이터 설정 (Model & Data Configuration)
 
 ## 3.1 모델 및 데이터
-* **핵심 모델:** `Qwen/Qwen2.5-VL-7B-Instruct`
+* **핵심 모델:** Qwen/Qwen2.5-VL-7B-Instruct
 * **데이터셋:** 데이터 수집 미션으로 가공된 이미지-질문-정답 쌍 데이터 (퀴즈 형태)
 
 ## 3.2 평가 기준
