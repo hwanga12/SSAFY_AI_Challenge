@@ -93,7 +93,7 @@ VQA 모델은 이미지 속 상황과 객체를 '이해'하고 논리적으로 '
     <tr>
       <td>양자화 설정</td>
       <td>4bit 양자화 (BitsAndBytesConfig)</td>
-      <td>**삭제 (bf16 Full Precision)**</td>
+      <td><b>삭제 (bf16 Full Precision)</b></td>
     </tr>
     <tr>
       <td>모델 채택</td>
@@ -103,22 +103,22 @@ VQA 모델은 이미지 속 상황과 객체를 '이해'하고 논리적으로 '
     <tr>
       <td>데이터 활용 범위</td>
       <td>샘플 데이터 200개 제한</td>
-      <td>**전체 데이터셋 사용**</td>
+      <td><b>전체 데이터셋 사용</b></td>
     </tr>
     <tr>
       <td>학습 Epoch</td>
       <td>1 Epoch</td>
-      <td>**5 Epoch**</td>
+      <td><b>5 Epoch</b></td>
     </tr>
     <tr>
       <td>학습률 (LR)</td>
       <td>(기존 값)</td>
-      <td>**2e-5**</td>
+      <td><b>2e-5</b></td>
     </tr>
     <tr>
       <td>이미지 해상도</td>
       <td>(기존 값)</td>
-      <td>**448 x 448**</td>
+      <td><b>448 x 448</b></td>
     </tr>
     <tr>
       <td>메모리 관리</td>
